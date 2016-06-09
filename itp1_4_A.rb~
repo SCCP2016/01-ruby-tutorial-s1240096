@@ -1,0 +1,12 @@
+a, b = STDIN.gets.split.map(&:to_i)
+
+d = a / b
+r = a % b
+f = a / b.to_f
+
+#puts d r f.join
+
+
+puts d," ",r," ",f
+
+#puts d.to_s+" "+r+" "+f
